@@ -16,27 +16,27 @@ console.log(myDate)  // 2024-01-17T17:32:46.058Z
 
  console.log(typeof myDate)  // Object
  
-// let myCreatedate = new Date(2023, 0 , 17)
-// console.log(myCreatedate);   // 2023-01-23T00:00:00.000Z
+ let myCreatedate = new Date(2023, 0 , 17)
+ console.log(myCreatedate);   // 2023-01-23T00:00:00.000Z
 
-// let myCreatedate2 = new Date(2023, 0 , 17, 23, 20)
-// console.log(myCreatedate2.toLocaleString()); // 1/17/2023, 11:20:00 PM
+ let myCreatedate2 = new Date(2023, 0 , 17, 23, 20)
+ console.log(myCreatedate2.toLocaleString()); // 1/17/2023, 11:20:00 PM
 
-// let createDate3  =  new Date("2023-01-17");  // Format yyyy-mm-dd
-// console.log(createDate3.toLocaleString());  // 1/17/2023, 12:00:00 AM
+ let createDate3  =  new Date("2023-01-17");  // Format yyyy-mm-dd
+ console.log(createDate3.toLocaleString());  // 1/17/2023, 12:00:00 AM
 
-// let createDate4  =  new Date("01-17-2023");   // 
+let createDate4  =  new Date("01-17-2023");   // 
 
-// console.log(createDate4.toLocaleString());  //1/17/2023, 12:00:00 AM Format MM-dd-yyyy
+ console.log(createDate4.toLocaleString());  //1/17/2023, 12:00:00 AM Format MM-dd-yyyy
 
-// let timestamp  = Date.now();
-// console.log(timestamp);  // 1705598010295 this time is coming form 1970 
+ let timestamp  = Date.now();
+ console.log(timestamp);  // 1705598010295 this time is coming form 1970 
 
-// console.log(createDate4.getTime());  // 1673913600000 this time is came from defined date in millisecond
+ console.log(createDate4.getTime());  // 1673913600000 this time is came from defined date in millisecond
 
-// console.log(Date.now());  // 1705598361498
+ console.log(Date.now());  // 1705598361498
 
-// console.log(Math.floor(Date.now() / 1000));  // 1705598456
+ console.log(Math.floor(Date.now() / 1000));  // 1705598456
 
 
 let newDate = new Date();
