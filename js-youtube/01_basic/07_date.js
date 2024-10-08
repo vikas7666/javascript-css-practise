@@ -1,20 +1,20 @@
 let myDate  = new Date(); 
 
-// we have created date object and its instance
+we have created date object and its instance
 
-// Date() is object and myDate is instance 
+Date() is object and myDate is instance 
  
-// console.log(myDate)  // 2024-01-17T17:32:46.058Z
+console.log(myDate)  // 2024-01-17T17:32:46.058Z
 
-// converted into string 
-// console.log(myDate.toString()) // Wed Jan 17 2024 17:38:52 GMT+0000 (Coordinated Universal Time)
-// console.log(myDate.toDateString()); // Wed Jan 17 2024
-// console.log(myDate.toISOString()); // 2024-01-17T17:40:48.308Z
-// console.log(myDate.toLocaleDateString()); // 1/17/2024
-// console.log(myDate.toLocaleTimeString()); // 5:42:13 PM
-// console.log(myDate.toUTCString()); // Wed, 17 Jan 2024 17:42:45 GMT
+converted into string 
+ console.log(myDate.toString()) // Wed Jan 17 2024 17:38:52 GMT+0000 (Coordinated Universal Time)
+ console.log(myDate.toDateString()); // Wed Jan 17 2024
+ console.log(myDate.toISOString()); // 2024-01-17T17:40:48.308Z
+ console.log(myDate.toLocaleDateString()); // 1/17/2024
+ console.log(myDate.toLocaleTimeString()); // 5:42:13 PM
+ console.log(myDate.toUTCString()); // Wed, 17 Jan 2024 17:42:45 GMT
 
-// console.log(typeof myDate)  // Object
+ console.log(typeof myDate)  // Object
  
 // let myCreatedate = new Date(2023, 0 , 17)
 // console.log(myCreatedate);   // 2023-01-23T00:00:00.000Z
