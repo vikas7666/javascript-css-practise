@@ -6,7 +6,7 @@ Date() is object and myDate is instance
  
 console.log(myDate)  // 2024-01-17T17:32:46.058Z
 
-converted into string 
+//converted into string 
  console.log(myDate.toString()) // Wed Jan 17 2024 17:38:52 GMT+0000 (Coordinated Universal Time)
  console.log(myDate.toDateString()); // Wed Jan 17 2024
  console.log(myDate.toISOString()); // 2024-01-17T17:40:48.308Z
